@@ -1,0 +1,381 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f5f6f8;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+.ant-select,
+.ant-table,
+.ant-modal {
+  font-family: "Poppins", sans-serif;
+}
+
+.foundly-icon-button {
+  align-items: center;
+  background: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  color: #707070 !important;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.foundly-primary-button,
+.foundly-submit-button,
+.foundly-create-button {
+  background: #11998e !important;
+  border-color: #11998e !important;
+  color: #ffffff !important;
+  font-weight: 500;
+}
+
+.foundly-primary-button,
+.foundly-white-button {
+  border-radius: 8px;
+  height: 30px;
+  font-size: 12px;
+}
+
+.foundly-white-button {
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #5a1d1f !important;
+}
+
+.foundly-help-button {
+  align-items: center;
+  background: #ffffff !important;
+  box-shadow: 0 3px 10px rgba(17, 153, 142, 0.18);
+  color: #11998e !important;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.foundly-secondary-button,
+.foundly-submit-button {
+  border-radius: 7px;
+  height: 44px;
+  min-width: 185px;
+}
+
+.foundly-submit-button {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.foundly-create-button {
+  border-radius: 8px;
+  height: 38px;
+  min-width: 160px;
+}
+
+.foundly-instructions-modal .ant-modal-content {
+  border-radius: 8px;
+  padding: 32px 36px;
+}
+
+.foundly-report-form .ant-form-item-label > label {
+  color: #4a4a4a;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.foundly-report-form .ant-input,
+.foundly-report-form .ant-select-selector,
+.foundly-report-form .ant-input-affix-wrapper {
+  border-color: #a9a9a9 !important;
+  border-radius: 6px !important;
+  min-height: 34px;
+}
+
+.foundly-report-form .ant-input::placeholder,
+.foundly-report-form textarea::placeholder,
+.foundly-report-form .ant-select-selection-placeholder {
+  color: #aaaaaa !important;
+  font-size: 12px;
+}
+
+.foundly-report-form textarea.ant-input {
+  min-height: 132px;
+  padding: 18px 24px;
+}
+
+.foundly-upload.ant-upload-wrapper .ant-upload-drag {
+  align-items: center;
+  background: #ffffff;
+  border-color: #9f9f9f;
+  border-radius: 10px;
+  display: flex;
+  height: 190px;
+  justify-content: center;
+}
+
+.foundly-history-table .ant-table-thead > tr > th {
+  background: #efefef !important;
+  color: #515151;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.foundly-history-table .ant-table-tbody > tr > td {
+  color: #3f3f3f;
+  font-size: 13px;
+}
+
+.foundly-history-table .ant-table-cell {
+  border-bottom: none !important;
+}
+
+.ant-modal .ant-modal-content {
+  border-radius: 8px;
+}
+
+.ant-modal .ant-btn-primary {
+  background: #11998e;
+  border-color: #11998e;
+  border-radius: 999px;
+  min-width: 64px;
+}
+
+.ant-modal .ant-btn-default {
+  border-radius: 999px;
+  min-width: 78px;
+}
+
+.foundly-admin-primary,
+.foundly-admin-save {
+  background: #11998e !important;
+  border-color: #11998e !important;
+  border-radius: 8px;
+  color: #ffffff !important;
+  font-size: 16px;
+  height: 46px;
+  min-width: 180px;
+}
+
+.foundly-admin-save {
+  height: 44px;
+  min-width: 260px;
+}
+
+.foundly-admin-secondary {
+  border-color: #8d8d8d !important;
+  border-radius: 8px;
+  color: #3f3f3f !important;
+  font-size: 16px;
+  height: 44px;
+  min-width: 170px;
+}
+
+.foundly-admin-breadcrumb {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.foundly-admin-breadcrumb a {
+  color: #d0d0d0;
+}
+
+.foundly-admin-breadcrumb .ant-breadcrumb-separator {
+  color: #d0d0d0;
+  margin-inline: 16px;
+}
+
+.foundly-admin-breadcrumb .ant-breadcrumb-link {
+  color: #4d4d4d;
+}
+
+.foundly-text-action {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #4d4d4d;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  padding: 0;
+}
+
+.foundly-search-input {
+  width: 160px;
+}
+
+.foundly-search-input .ant-input {
+  font-size: 16px;
+}
+
+.foundly-filter-chip {
+  align-items: center;
+  background: #dedede;
+  border: 0;
+  border-radius: 4px;
+  color: #565656;
+  display: inline-flex;
+  font-size: 15px;
+  gap: 8px;
+  min-width: 132px;
+  padding: 6px 13px;
+}
+
+.foundly-filter-chip .ant-tag-close-icon {
+  color: #565656;
+  display: inline-flex;
+  margin-inline-start: 8px;
+}
+
+.foundly-clear-button {
+  color: #009aaa !important;
+  font-size: 15px;
+  padding: 0;
+}
+
+.foundly-barang-table .ant-table {
+  border-radius: 0;
+}
+
+.foundly-barang-table .ant-table-thead > tr > th {
+  background: #d9d9d9 !important;
+  border-bottom: 0 !important;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 16px 12px;
+}
+
+.foundly-barang-table .ant-table-tbody > tr > td {
+  border-bottom: 0 !important;
+  color: #4d4d4d;
+  font-size: 16px;
+  padding: 15px 12px;
+}
+
+.foundly-barang-table .ant-table-tbody > tr:nth-child(even) > td {
+  background: #f0f0f0;
+}
+
+.foundly-detail-button {
+  color: #767676 !important;
+  font-size: 16px;
+}
+
+.foundly-create-form,
+.foundly-readonly-form {
+  color: #4d4d4d;
+}
+
+.foundly-create-form .ant-form-item-label > label,
+.foundly-readonly-form .ant-form-item-label > label {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.foundly-create-form .ant-input,
+.foundly-readonly-form .ant-input {
+  border-color: #b8b8b8 !important;
+  border-radius: 6px;
+  font-size: 16px;
+  min-height: 50px;
+}
+
+.foundly-create-form textarea.ant-input,
+.foundly-readonly-form textarea.ant-input {
+  min-height: 150px;
+}
+
+.foundly-create-form .ant-radio-wrapper,
+.foundly-readonly-form .ant-radio-wrapper {
+  color: #a2a2a2;
+  font-size: 16px;
+}
+
+.foundly-readonly-form .ant-radio-wrapper-checked {
+  color: #4d4d4d;
+}
+
+.foundly-create-upload.ant-upload-wrapper .ant-upload-drag {
+  background: #ffffff;
+  border-color: #b8b8b8;
+  border-radius: 10px;
+  height: 380px;
+  overflow: hidden;
+}
+
+.foundly-create-upload.ant-upload-wrapper .ant-upload-drag .ant-upload {
+  padding: 0;
+}
+
+.foundly-claim-modal .ant-modal-content {
+  border-radius: 4px;
+  padding: 0;
+}
+
+.foundly-claim-modal .ant-modal-header {
+  border-bottom: 1px solid #d7d7d7;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.18);
+  margin: 0;
+  padding: 16px 18px;
+}
+
+.foundly-claim-modal .ant-modal-title {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.foundly-claim-modal .ant-modal-body {
+  padding: 28px 72px 34px;
+}
+
+.foundly-claim-form .ant-form-item {
+  margin-bottom: 10px;
+}
+
+.foundly-claim-form .ant-form-item-label {
+  padding-bottom: 2px;
+}
+
+.foundly-claim-form .ant-form-item-label > label {
+  color: #4d4d4d;
+  font-size: 11px;
+  height: 18px;
+}
+
+.foundly-claim-form .ant-input {
+  border-color: #b8b8b8 !important;
+  border-radius: 6px;
+  color: #4d4d4d;
+  font-size: 12px;
+  height: 28px;
+}
+
+.foundly-claim-cancel,
+.foundly-claim-save {
+  border-radius: 6px;
+  font-size: 12px;
+  height: 30px;
+  min-width: 118px;
+}
+
+.foundly-claim-save {
+  background: #11998e !important;
+  border-color: #11998e !important;
+}
+
+:global {
+  ant-modal-content-padding {
+    padding: 0px !important;
+  }
+}

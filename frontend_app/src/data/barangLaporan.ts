@@ -1,0 +1,110 @@
+import type { BarangLaporan } from "@/types/barangLaporan";
+
+export const barangLaporan: BarangLaporan[] = [
+  {
+    id: "bl-001",
+    namaPelapor: "Febian Attala K",
+    namaBarang: "Kartu Parkir",
+    noTelepon: "0842827476",
+    lokasiKehilangan: "Area parkir utama Kampus 1",
+    kategori: "Aksesoris",
+    tanggal: "27-03-2026",
+    waktu: "09:30 WIB",
+    status: "PROSES",
+    deskripsi:
+      "Kartu parkir hilang setelah keluar dari area parkir utama Kampus 1.",
+    image: "/images/barang-temuan/kartu-parkir.svg",
+  },
+  {
+    id: "bl-002",
+    namaPelapor: "Lucky Fauzi",
+    namaBarang: "Earphone",
+    noTelepon: "08414854576",
+    lokasiKehilangan: "Meja di Lorong Laboratorium",
+    kategori: "Elektronik",
+    tanggal: "11-04-2026",
+    waktu: "12:04 WIB",
+    status: "DITEMUKAN",
+    deskripsi:
+      "Earphone wireless Lenovo warna hitam ditemukan pada meja Laboratorium.",
+    image: "/images/barang-temuan/earphone.svg",
+  },
+  {
+    id: "bl-003",
+    namaPelapor: "M Rayhan",
+    namaBarang: "Jaket",
+    noTelepon: "0854789122",
+    lokasiKehilangan: "Ruang kelas B216 Kampus 1",
+    kategori: "Pakaian",
+    tanggal: "21-03-2026",
+    waktu: "14:20 WIB",
+    status: "TIDAK_DITEMUKAN",
+    deskripsi:
+      "Jaket berwarna gelap tertinggal di kelas B216 setelah perkuliahan.",
+    image: "/images/barang-temuan/hoodie.svg",
+  },
+  {
+    id: "bl-004",
+    namaPelapor: "Evan Darmawan",
+    namaBarang: "Jam Tangan",
+    noTelepon: "0856977137",
+    lokasiKehilangan: "Kantin Kampus 1",
+    kategori: "Aksesoris",
+    tanggal: "03-04-2026",
+    waktu: "10:10 WIB",
+    status: "SELESAI",
+    deskripsi:
+      "Jam tangan hitam terakhir terlihat di meja kantin dekat kasir.",
+    image: "/images/barang-temuan/kacamata.svg",
+  },
+  {
+    id: "bl-005",
+    namaPelapor: "Ali Fadhil",
+    namaBarang: "Charger Iphone",
+    noTelepon: "096689726",
+    lokasiKehilangan: "Lab A",
+    kategori: "Elektronik",
+    tanggal: "15-04-2026",
+    waktu: "15:45 WIB",
+    status: "SELESAI",
+    deskripsi:
+      "Charger iPhone putih tertinggal di meja komputer Lab A.",
+    image: "/images/barang-temuan/flashdisk.svg",
+  },
+  {
+    id: "bl-006",
+    namaPelapor: "Siti Rohimah W",
+    namaBarang: "Dompet",
+    noTelepon: "085569974",
+    lokasiKehilangan: "Lantai 2 gedung utama",
+    kategori: "Aksesoris",
+    tanggal: "20-04-2026",
+    waktu: "11:35 WIB",
+    status: "PROSES",
+    deskripsi:
+      "Dompet warna coklat hilang di sekitar koridor lantai 2 gedung utama.",
+    image: "/images/barang-temuan/cincin.svg",
+  },
+  {
+    id: "bl-007",
+    namaPelapor: "Altria Rizkyanta B",
+    namaBarang: "Tumbler",
+    noTelepon: "0869377724",
+    lokasiKehilangan: "Lapangan basket",
+    kategori: "Lainnya",
+    tanggal: "27-04-2026",
+    waktu: "16:30 WIB",
+    status: "PROSES",
+    deskripsi:
+      "Tumbler 330 ml tertinggal setelah kegiatan olahraga di lapangan basket.",
+    image: "/images/barang-temuan/tumbler.svg",
+  },
+];
+
+export const kategoriBarangLaporan = [
+  "Elektronik",
+  "Perhiasan",
+  "Pakaian",
+  "Aksesoris",
+  "Lainnya",
+] as const;

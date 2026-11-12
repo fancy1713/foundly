@@ -1,0 +1,11 @@
+# Root-level ignores for the Foundly monorepo
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+__pycache__/
+*.pyc
+venv/
+.DS_Store
+*.log
